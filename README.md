@@ -33,3 +33,7 @@ Example:
 ```bash
 $> symrun newshell "ExtensityAI/demoshell" "A demo shell style showing a lot of examples"
 ```
+
+### Edit
+
+Go to the `src/styles.py` file and update the `SHELL_CONTEXT` file.

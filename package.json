@@ -1,0 +1,16 @@
+{
+    "version": "0.0.1",
+    "name": "ExtensityAI/shellbuilder",
+    "description": "Shell Builder can create themed shells based on a template and user prompts.",
+    "expressions": [
+        {
+            "module": "src/shell_builder",
+            "type": "PackageInitializer"
+        }
+    ],
+    "run": {
+        "module": "src/shell_builder",
+        "type": "PackageInitializer"
+    },
+    "dependencies": []
+}

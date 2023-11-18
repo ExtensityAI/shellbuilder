@@ -26,10 +26,10 @@ $> symrun c newshell ExtensityAI/shellbuilder
 
 Now simply call:
 ```bash
-$> symrun newshell "<github_user>/<github_repo>"
+$> symrun newshell "<github_user>/<github_repo>" "<description_of_the_repo>"
 ```
 
 Example:
 ```bash
-$> symrun newshell "ExtensityAI/demoshell"
+$> symrun newshell "ExtensityAI/demoshell" "A demo shell style showing a lot of examples"
 ```

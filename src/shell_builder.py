@@ -7,7 +7,8 @@ from symai import Expression
 
 
 class PackageInitializer(Expression):
-    def forward(self, package_name: str, description: str, shell_style: str = ''):
+    def forward(self, package_name: str, description: str, shell_style: str = '', **kwargs):
+        super().__init__(**kwargs)
         self.package_dir = Path.home() / '.symai/packages/'
 
         if not os.path.exists(self.package_dir):
